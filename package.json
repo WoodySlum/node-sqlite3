@@ -7,6 +7,9 @@
     "name": "MapBox",
     "url": "https://mapbox.com/"
   },
+  "engines": {
+        "node": "10.14.1"
+  },
   "binary": {
     "module_name": "node_sqlite3",
     "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
@@ -37,7 +40,7 @@
     "url": "git://github.com/mapbox/node-sqlite3.git"
   },
   "dependencies": {
-    "nan": "~2.10.0",
+    "nan": "^2.11",
     "node-pre-gyp": "^0.11.0",
     "request": "^2.87.0"
   },
